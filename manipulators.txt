@@ -1,0 +1,49 @@
+- + / * % += >< ==
+
+modulo shows leftover from  the division
+int var = 10
+int var = 10 % 3;
+(1)
+
+
++=
+int num = 10
+num += 5;
+(15)
+
+>< 
+double balance = 20000.01;
+double amountToWithdraw = 5000.01;
+System.out.print(amountToWithdraw < balance);
+//this will print true,
+since amountToWithdraw is less than balance
+
+==
+double paycheckAmount = 620;
+double calculatedPaycheck = 15.50 * 40;
+ 
+System.out.print(paycheckAmount == calculatedPaycheck);
+// This will print true,
+since paycheckAmount equals calculatedPaycheck
+
+check if equal ==
+check if not equal !=
+
+final - type of var that cannot be changed
+final double pi = 3.14;
+
+
+We covered:
+
+Addition and subtraction, using + and -
+Multiplication and division, using * and /
+The modulo operator for finding remainders, %
+Compound assignment operators +=, -=, *=, /=, and %=.
+The order of operations: parentheses -> exponents -> 
+multiplication, division, modulo -> addition, subtraction
+Greater than, >, and less than, <
+Equal to, ==, and not equal to, !=
+Greater than or equal to, >=, and less than or equal to, <=
+equals() for comparing Strings and other objects
+Using + to concatenate Strings
+The final keyword which makes variables unchangeable
